@@ -1,0 +1,23 @@
+.quote {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+}
+
+.author-name {
+    font-family: 'Bitter', serif;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.t-button, .n-button {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+ 
+button {
+    padding: 5px 3px 5px 3px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.452);
+}
