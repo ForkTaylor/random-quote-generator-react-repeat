@@ -3,8 +3,7 @@
   text-align: center;
   justify-content: center;
   margin-top: 50px;
-  font-family: 'Bitter', serif;
-  font-size: 1.5rem;
+  margin-bottom: 50px;
 }
 
 .quote-card {
@@ -18,7 +17,7 @@
 .card {
     width: 35rem;
     height: 18rem;
-    border: solid black 1px;
+    border: double black 8px;
     border-radius: 8px;
     padding: 2.2rem;
 }
