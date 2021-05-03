@@ -6,7 +6,10 @@ import './quotes.css'
 export default function PrintQuotes() {
     let [phrase, setPhrase] = useState(0);
 
-     const randomPhrase = () => {
+    var url = window.location.href;
+    var twitterURL =`https://twitter.com/intent/tweet?url='+${url}+"&text="+${encodeURIComponent(quotes[phrase].quote)}+${encodeURIComponent(quotes[phrase].author)}`
+
+    const randomPhrase = () => {
         phrase = Math.floor(Math.random() * quotes.length);
         setPhrase(phrase);
     }
@@ -17,7 +20,7 @@ export default function PrintQuotes() {
             <h4 className="author-name">-{quotes[phrase].author}</h4>
 
             <div className="t-button">
-                <button><i class="fab fa-twitter"></i></button>
+                <button><a target="_blank" href={twitterURL} ><i class="fab fa-twitter"></i>Tweet</a></button>
             </div>
 
             <div className="n-button">
