@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './App'
-
+import PrintQuotes from './printQuotes'
 
 ReactDOM.render(
   <React.StrictMode>
     <App/>
+    <PrintQuotes/>
   </React.StrictMode>,
   document.getElementById('root')
 );
