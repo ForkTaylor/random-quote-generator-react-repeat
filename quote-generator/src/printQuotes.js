@@ -17,7 +17,7 @@ export default function PrintQuotes() {
             <h4 className="author-name">-{quotes[phrase].author}</h4>
 
             <div className="t-button">
-                <button>Tweet</button>
+                <button><i class="fab fa-twitter"></i></button>
             </div>
 
             <div className="n-button">
