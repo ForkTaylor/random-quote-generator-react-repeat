@@ -1,5 +1,4 @@
 import './App.css';
-import QuoteGenerator from './quoteGenerator'
 
 function App() {
   return (
