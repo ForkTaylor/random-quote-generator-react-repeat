@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import  {quotes} from './rawQuotes.json';
 import './quotes.css'
 
-
 export default function PrintQuotes() {
     let [phrase, setPhrase] = useState(0);
 
@@ -31,5 +30,3 @@ export default function PrintQuotes() {
     )
 
 }
-
-

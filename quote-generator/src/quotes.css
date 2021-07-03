@@ -16,7 +16,7 @@
     margin-right: 5px;
 }
  
-button {
+button{
     padding: 5px 3px 5px 3px;
     border-radius: 6px;
     color: white;
@@ -24,6 +24,7 @@ button {
     box-shadow: none;
     border: solid transparent;
     font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
 }
 
 a {

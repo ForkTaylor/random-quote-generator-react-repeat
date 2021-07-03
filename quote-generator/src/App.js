@@ -1,12 +1,12 @@
 import './App.css';
-import PrintQuotes from './printQuotes'
+import QuoteGenerator from './quoteGenerator'
 
 function App() {
   return (
     
     <div className="quote-card">
       <div className="card">
-        <PrintQuotes />
+        <QuoteGenerator />
       </div>
     </div>
       
